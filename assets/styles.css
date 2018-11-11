@@ -1,0 +1,33 @@
+body {
+  background-image: url("assets/prettycolors.jpeg");
+  background-repeat: none;
+  background-size: cover;
+  position: center;
+}
+
+.card-width{
+  width: 18rem;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+  border-radius: 5px 5px 30px 30px;
+  background-color: rgba(27, 112, 133, 0.25);
+}
+
+.audio-width{
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.search-bar {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.transparent-input {
+  background-color: rgba(0,0,0,0);
+  border: 3px solid whitesmoke;
+  margin-bottom: 1rem;
+}
