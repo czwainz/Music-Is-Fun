@@ -20,6 +20,8 @@ function drawSongs(songs) {
       </div>
       `
   }
+  //referenced from https://stackoverflow.com/questions/43768360/html5-how-to-allow-only-one-song-to-play-and-to-restart-it to stop audio tags from playing more than one at a time (when one is playing the event listener will pause others, so when new one is clicked it pauses the other bc of the loop (!= event.target))
+
   document.addEventListener('play', function (event) {
     let audios = document.getElementsByTagName('audio');
     for (let i = 0; i < audios.length; i++) {
